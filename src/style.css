@@ -1,0 +1,81 @@
+*{margin:0px;padding:0px;}
+.barra{
+  background-color: #ffffff;
+  padding-left: 6%;
+  padding-right: 6%;
+  -webkit-box-shadow: 1px 1px 1px rgb(224, 229, 236);
+  -moz-box-shadow:    1px 1px 1px rgb(224, 229, 236);
+  box-shadow:         1px 1px 1px rgb(224, 229, 236);
+
+}
+.navbar{
+    background-color: #ffffff;
+    color:#9aa0ac;
+    padding-left: 6%;
+    padding-right:6%;
+    -webkit-box-shadow: 1px 1px 1px rgb(224, 229, 236);
+    -moz-box-shadow:    1px 1px 1px rgb(224, 229, 236);
+    box-shadow:         1px 1px 1px rgb(224, 229, 236);
+  }
+  .navbar i{
+    color:#9aa0ac;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+/*faz com que o navbar acompanhe a altura dos links*/
+.navbar::after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+/*adiciona bordar em baixo se o link estiver com foco ou tiver a classe*/
+.navbar a:focus {
+  border-bottom-width: 2px;
+  border-bottom-color: #640080;
+  border-bottom-style: solid;
+  color: #640080;
+  font-weight: 500;
+}
+.navbar a:hover{
+  border-bottom-width: 2px;
+  border-bottom-color: #640080;
+  border-bottom-style: solid;
+  color: #640080;
+  font-weight: 500;
+
+}
+.navbar a.actived{
+  border-bottom-width: 2px;
+  border-bottom-color: #640080;
+  border-bottom-style: solid;
+  color: #640080;
+  font-weight: 500;
+
+} 
+.navbar-toggle{
+    color:#000000;
+  }
+  .table{
+    margin-top: 10px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 1px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f7fb;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }

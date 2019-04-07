@@ -1,0 +1,29 @@
+*{margin:0px;padding:0px;}
+.navbar{
+    background-color: #ffffff;
+  }
+  .navbar i{
+    color:#000000;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .navbar a {
+    color:#CCCCCC;
+  }
+  .navbar a:hover{
+    color:#000000;
+  }
+  
+  .navbar li:hover {
+    border-bottom: 2px solid #000000;
+  }
+  
+  .navbar li.active {
+    border-bottom: 2px solid #CCCCCC;
+  }
+  .navbar-toggle{
+    color:#000000;
+  }
+  .table{
+    margin-top: 10px;
+  }
